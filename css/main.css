@@ -1,0 +1,28 @@
+.logo{
+    margin-left: 45%;
+}
+
+@media screen and (max-width: 768px){
+    .logo{
+        margin-left: 40%;
+    }
+}
+
+.login_register{
+    margin-top: 10vh;
+}
+
+.form-control:focus{
+    border: 1px solid green;
+    box-shadow: none;
+}
+
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn.active.focus {
+    outline: none!important;
+    box-shadow: none;
+}
